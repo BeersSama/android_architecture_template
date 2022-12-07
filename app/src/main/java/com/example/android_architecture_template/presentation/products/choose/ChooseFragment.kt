@@ -21,12 +21,12 @@ class ChooseFragment : Fragment(R.layout.fragment_choose) {
     private fun setupListeners() {
         binding.fragmentChooseCoroutineBtn.setOnReactiveClickListener {
             val action =
-                ChooseFragmentDirections.navigateToProductsListFragment()
+                ChooseFragmentDirections.navigateToProductsListFragment(ChoosePathType.COROUTINE)
             findNavController().navigate(action)
         }
         binding.fragmentChooseRxBtn.setOnReactiveClickListener {
             val action =
-                ChooseFragmentDirections.navigateToProductsListFragment()
+                ChooseFragmentDirections.navigateToProductsListFragment(ChoosePathType.RX)
             findNavController().navigate(action)
         }
     }

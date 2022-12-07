@@ -1,7 +1,5 @@
 package com.example.android_architecture_template.data.network
 
-import com.example.android_architecture_template.BuildConfig
-import com.example.android_architecture_template.data.network.BaseRetrofit.Companion.BASE_URL
 import com.google.gson.Gson
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit

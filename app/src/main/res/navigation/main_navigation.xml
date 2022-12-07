@@ -27,7 +27,6 @@
 
         <argument
             android:name="choosePathType"
-            android:defaultValue="RX"
             app:argType="com.example.android_architecture_template.presentation.products.choose.ChoosePathType" />
 
     </fragment>
